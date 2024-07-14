@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name="student")
+@Table(name ="student")
 public class Student {
-   @Id
-   @GeneratedValue(strategy =GenerationType.AUTO )
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     Long sid;
     String susername;
     String spassword;
